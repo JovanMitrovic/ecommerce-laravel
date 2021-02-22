@@ -98,27 +98,6 @@
                         <!-- Used to display from errors -->
                     </div>
 
-{{--                    <div class="form-group">--}}
-{{--                        <label for="address">Address</label>--}}
-{{--                        <input type="text" class="form-control" id="address" name="address" value="">--}}
-{{--                    </div>--}}
-
-{{--                    <div class="form-group">--}}
-{{--                        <label for="cc-number">Credit Card Number</label>--}}
-{{--                        <input type="text" class="form-control" id="cc-number" name="cc-number" value="">--}}
-{{--                    </div>--}}
-
-{{--                    <div class="half-form">--}}
-{{--                        <div class="form-group">--}}
-{{--                            <label for="expiry">Expiry</label>--}}
-{{--                            <input type="text" class="form-control" id="expiry" name="expiry" placeholder="MM/DD">--}}
-{{--                        </div>--}}
-{{--                        <div class="form-group">--}}
-{{--                            <label for="cvc">CVC Code</label>--}}
-{{--                            <input type="text" class="form-control" id="cvc" name="cvc" value="">--}}
-{{--                        </div>--}}
-{{--                    </div> <!-- end half-form -->--}}
-
                     <div class="spacer"></div>
 
                     <button id="complete-order" type="submit" class="button-primary full-width">Complete Order</button>
@@ -126,7 +105,6 @@
 
                 </form>
             </div>
-
 
 
             <div class="checkout-table-container">
@@ -152,6 +130,8 @@
                 </div> <!-- end checkout-table-row -->
 
                 @endforeach
+
+                </div> <!-- end checkout-table-row -->
 
                 <div class="checkout-totals">
                     <div class="checkout-totals-left">
