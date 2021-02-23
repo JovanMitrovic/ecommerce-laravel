@@ -79,6 +79,28 @@ h1.checkout-heading {
             line-height: 2.2;
         }
     }
+
+  .have-code {
+    display: block;
+    margin: 14px 0;
+    //text-align: right;
+  }
+
+  .have-code-container {
+    border: 1px solid $text-color-light;
+    padding: 12px;
+    width: 100%;
+    //margin-right: 50%;
+
+    input {
+      padding: 19px;
+      width: 65%;
+    }
+
+    button {
+      padding: 13px 50px;
+    }
+  }
 }
 
 /**
